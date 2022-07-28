@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>gamoke</title>
+	<link rel="stylesheet" href="CSS/library.css">
+	<link rel="stylesheet" href="CSS/main.css">
+	<link rel="stylesheet" href="CSS/cursor.css">
+	<link rel="stylesheet" href="CSS/scroll.css">
+	
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<link rel="stylesheet" href="CSS/type.css">
+</head>
+
+<body>
+		<!--Cursor-->
+		<div class="cursor-dot-outline"></div>
+		<div class="cursor-dot"></div>
+	<header>
+		<div class="header row align-items-center">
+			<a href="index.html">gamoke</a>
+			<div class="cursor-dot-outline-3"></div>
+			<div class="cursor-dot-3"></div>
+		</div>
+
+		<div class="toggle">
+		  <i class="fas fa-bars"></i> 
+		</div>
+
+		<navigation class="menu-close">
+		  <ul>
+			<li><a href="index.html"><span>1.</span>Home</a></li>
+			<li><a href="html/aboutme.html"><span>2.</span>About Me</a></li>
+			<li><a href="html/project.html"><span>3.</span>Project</a></li>
+			<li><a href="html/contact.html"><span>4.</span>Contact</a></li>
+		  </ul>
+			<div class="row feature-menu justify-end align-items-end">
+<!--				<img src="img/chuky light.png" alt="chukylight">-->
+			</div>
+		<div class="cursor-dot-outline-2"></div>
+		<div class="cursor-dot-2"></div>
+		</navigation>
+	</header>
+	<main>
+		<section class="home">
+			<p id="hero">sadasd</p>
+		</section>
+
+		<section class="about" id="about">
+		  <p>
+			About
+		  </p>
+		</section>
+
+		<section class="portfolio" id="portfolio">
+		  <p>
+			Portfolio
+		  </p>
+		</section>
+
+		<section class="contact" id="contact">
+		  <p>
+			Contact
+		  </p>
+		</section>
+				<div class="cursor-dot-outline"></div>
+		<div class="cursor-dot"></div>
+	</main>
+	<footer>
+	</footer>
+
+	<!--Js-->
+		<script>
+		window.onscroll = function() {myFunction()};
+		var header = document.getElementById("myHeader");
+		var sticky = header.offsetTop;
+		function myFunction() {
+		  if (window.pageYOffset > sticky) {
+			header.classList.add("sticky");
+		  } else {
+			header.classList.remove("sticky");
+		  }
+		}
+		</script>
+		
+		<script src="js/Babell.js"></script>
+		<script src="js/Babell-2.js"></script>
+		<script src="js/Babell-3.js"></script>
+		<script src="js/type.js"></script>
+	<script src="js/menu.js"></script>
+		<script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</body>
+</html>
